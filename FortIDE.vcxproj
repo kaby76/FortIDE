@@ -117,7 +117,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>C:\Users\Peyton\Downloads\Compressed\nativefiledialog-devel\nativefiledialog-devel\src;$(SolutionDir)IC\include\csys\;$(SolutionDir)IC\include\imgui_console\;C:\Users\Peyton\Documents\dev\FortIDE2\Includes;$(SolutionDir)FortIDE2\Includes;C:\Users\Peyton\Documents\dev\FortIDE2\mainfunc;C:\Users\Peyton\Documents\dev\FortIDE2\NFD\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)deps/imgui;$(SolutionDir)deps/imgui-sfml;$(SolutionDir)deps/SFML/include;$(SolutionDir)deps/json/include;$(SolutionDir)deps/boost/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
